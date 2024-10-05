@@ -1,0 +1,480 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 32px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .cont
+    {
+        padding: 0 15px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__backdrop
+    {
+        background: #fff;
+
+                backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+
+
+    .fancybox__slide
+    {
+        padding: 0;
+    }
+
+
+    .fancybox__content > .f-button.is-close-btn,
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        right: 0;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .logo img
+    {
+        display: none;
+    }
+
+
+    .mob_header .logo img.mob
+    {
+        display: block;
+    }
+
+
+    .mob_header .phone
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        padding-left: 27px;
+    }
+
+
+    .block_head .title:before
+    {
+        width: 12px;
+        height: 28px;
+        margin-top: -14px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .checkbox br
+    {
+        display: none;
+    }
+
+
+    .form .submit
+    {
+        padding-top: 24px;
+    }
+
+
+    .form .submit .agree
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        display: flex;
+        flex-direction: column;
+
+        height: auto;
+        min-height: 668px;
+        padding-top: 180px;
+        padding-bottom: 80px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 36px;
+
+        letter-spacing: 1.44px;
+    }
+
+
+    .first_section .btn
+    {
+        display: block;
+    }
+
+
+    .first_section .services
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        padding-top: 26px;
+        padding-left: 0;
+    }
+
+
+    .services .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .services .service
+    {
+        min-height: 240px;
+        padding: 19px;
+    }
+
+
+    .services .service .icon
+    {
+        right: 19px;
+        bottom: 19px;
+
+        width: 80px;
+        height: 80px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .stats .start,
+    .about_info .stats .finish
+    {
+        font-size: 48px;
+    }
+
+
+    .about_info .stats .item + .item
+    {
+        margin-top: 29px;
+    }
+
+
+    .about_info .stats .label
+    {
+        font-size: 20px;
+    }
+
+
+    .about_info .stats .val
+    {
+        font-size: 48px;
+        line-height: 34px;
+    }
+
+
+    .about_info .stats .exp
+    {
+        font-size: 20px;
+        line-height: 14px;
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .about_info .stats .exp br
+    {
+        display: none;
+    }
+
+
+    .about_info .image
+    {
+        width: calc(100% + 30px);
+        min-height: 260px;
+        margin-top: 64px;
+        margin-right: -15px;
+        margin-left: -15px;
+
+        background: #f6f6f6;
+    }
+
+
+    .about_info .image:before
+    {
+        display: none;
+    }
+
+
+    .about_info .image img
+    {
+        bottom: 4px;
+
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .about_info .data
+    {
+        margin-top: 60px;
+    }
+
+
+
+    .about_info .video
+    {
+        width: calc(100% + 30px);
+        min-height: 260px;
+        margin-top: 40px;
+        margin-right: -15px;
+        margin-left: -15px;
+
+        clip-path: none;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .block_head
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .advantages .item
+    {
+        font-size: 16px;
+
+        padding: 15px;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 112px;
+        height: 94px;
+    }
+
+
+    .advantages .item .icon + *
+    {
+        width: calc(100% - 152px);
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form
+    {
+        padding: 60px 0;
+    }
+
+
+    .order_form .block_title
+    {
+        padding: 0;
+    }
+
+
+    .order_form .block_desc
+    {
+        margin-top: 40px;
+    }
+
+
+    .order_form .form
+    {
+        margin-top: 40px;
+    }
+
+
+    .order_form .bg2
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Actions
+    -------------*/
+    .actions .item
+    {
+        min-height: 500px;
+        padding: 40px;
+    }
+
+
+    .actions .item .desc
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        width: 100%;
+        min-height: 0;
+    }
+
+
+    .actions .item .btn
+    {
+        width: 100%;
+    }
+
+
+    .actions .item .thumb
+    {
+        right: auto;
+        bottom: -73px;
+        left: 50%;
+
+        width: 345px;
+        height: 345px;
+
+        transform: translateX(-50%);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding-top: 60px;
+        padding-bottom: 188px;
+    }
+
+
+    .contacts_info .row
+    {
+        margin-top: 0;
+    }
+
+
+    .contacts_info .item
+    {
+        min-height: 0;
+        padding: 19px;
+    }
+
+
+    .contacts_info .label
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .contacts_info .location
+    {
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 38px 0;
+    }
+
+
+    footer .copyright
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 20px;
+
+        text-align: center;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 35px 15px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 20px;
+    }
+
+
+    .modal .form .agree
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .modal .form .submit
+    {
+        padding-top: 4px;
+    }
+}

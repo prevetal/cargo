@@ -1,0 +1,432 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        right: 100%;
+        left: auto;
+
+        width: 375px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 60px 0;
+
+        transition: transform .3s linear;
+
+        color: var(--text_color);
+        border: none;
+        background: #fff;
+    }
+
+
+    header.show
+    {
+        transform: translateX(100%);
+    }
+
+
+    header .mob_close_btn
+    {
+        display: flex;
+    }
+
+
+    header .cont
+    {
+        padding: 0 16px;
+    }
+
+
+    header .logo,
+    header .phone,
+    header .order_btn
+    {
+        display: none;
+    }
+
+
+    header .menu
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+
+    header .menu > *
+    {
+        border-bottom: 1px solid #c6d4e9;
+    }
+
+
+    header .menu .btn
+    {
+        font-weight: 500;
+
+        width: calc(100% + 32px);
+        height: 60px;
+        margin-right: -16px;
+        margin-left: -16px;
+        padding: 16px;
+
+        transition: .2s linear;
+        text-align: left;
+    }
+
+
+    header .menu .btn:hover
+    {
+        opacity: 1;
+        color: #fff;
+        background: #e51b0f;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 900px;
+        padding-bottom: 464px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: var(--font_size_title);
+    }
+
+
+
+    .first_section .services .row
+    {
+        flex-wrap: wrap;
+    }
+
+
+    .first_section .services .row > *
+    {
+        width: 33.333%;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .item
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        height: 202px;
+        padding: 30px 20px;
+
+        gap: 20px;
+    }
+
+
+    .services .item:nth-child(4n)
+    {
+        border-right: 1px solid rgba(255, 255, 255, .40);
+    }
+
+    .services .item:nth-child(-n+4)
+    {
+        border-bottom: none;
+    }
+
+    .services .item:nth-child(-n+3)
+    {
+        border-bottom: 1px solid rgba(255, 255, 255, .40);
+    }
+
+    .services .item:nth-child(3) ~ .item
+    {
+        border-top: none;
+    }
+
+    .services .item:nth-child(3n)
+    {
+        border-right: none;
+    }
+
+
+    .services .item .name
+    {
+        width: 100%;
+    }
+
+
+    .services .item .btn
+    {
+        display: none;
+    }
+
+
+
+    .services .row
+    {
+        padding: 0;
+    }
+
+    .services .row > *
+    {
+        width: calc(50% + 1px);
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .stats
+    {
+        width: 100%;
+    }
+
+
+    .about_info .stats .label
+    {
+        font-weight: 500;
+
+        text-transform: uppercase;
+    }
+
+
+    .about_info .image
+    {
+        width: calc(100% - 80px);
+        min-height: 492px;
+        margin-top: 80px;
+        margin-right: -20px;
+    }
+
+
+    .about_info .image img
+    {
+        right: 0;
+        bottom: -20px;
+        left: auto;
+
+        height: 620px;
+    }
+
+
+    .about_info .data
+    {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+
+    .about_info .video
+    {
+        order: 2;
+
+        width: calc(100% + 20px);
+        min-height: 496px;
+        margin-top: 80px;
+        margin-left: -20px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+        padding-top: 0;
+    }
+
+
+    .advantages .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form
+    {
+        padding: 14px 0 80px;
+    }
+
+
+    .order_form .bg2
+    {
+        top: -105px;
+        right: -21px;
+
+        width: 369px;
+        height: 369px;
+        margin-right: 0;
+    }
+
+
+    .order_form .block_title
+    {
+        padding-right: 324px;
+    }
+
+
+    .order_form .block_title br
+    {
+        display: block;
+    }
+
+
+    .order_form .block_desc
+    {
+        margin-top: 90px;
+    }
+
+
+
+    /*-------------
+        Actions
+    -------------*/
+    .actions .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+
+    .actions .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .actions .item
+    {
+        padding: 80px;
+    }
+
+
+    .actions .item .thumb
+    {
+        width: 482px;
+        height: 482px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding-top: 80px;
+        padding-bottom: 216px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        bottom: 0;
+
+        padding: 30px 0;
+    }
+
+
+    footer .logo img
+    {
+        display: none;
+    }
+
+
+    footer .logo img.tablet
+    {
+        display: block;
+    }
+
+
+    footer .buttonUp .btn span
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 546px;
+    }
+}

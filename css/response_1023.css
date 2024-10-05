@@ -1,0 +1,138 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 16px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 1024px;
+        padding-top: 310px;
+    }
+
+
+    .first_section .title br
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .service
+    {
+        min-height: 360px;
+    }
+
+
+    .services .service .btn
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image img
+    {
+        bottom: 0;
+
+        height: 580px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-left: 0;
+    }
+
+
+    .advantages .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .advantages .item
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        padding: 20px;
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 238px;
+        height: 200px;
+    }
+
+
+    .advantages .item .icon + *
+    {
+        width: calc(100% - 278px);
+    }
+
+
+
+    /*-------------
+        Actions
+    -------------*/
+    .actions .item .thumb
+    {
+        right: -79px;
+
+        width: 482px;
+        height: 482px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row > *
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .row > * + *
+    {
+        border-top: 1px solid rgba(255, 255, 255, .40);
+    }
+}

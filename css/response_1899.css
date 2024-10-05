@@ -1,0 +1,156 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu
+    {
+        gap: 48px;
+    }
+
+
+    header .order_btn
+    {
+        height: 56px;
+        padding: 10px 32px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 860px;
+        padding-top: 224px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .item
+    {
+        padding: 40px 24px;
+
+        gap: 32px;
+    }
+
+
+
+    .services .service
+    {
+        min-height: 320px;
+    }
+
+
+    .services .service .btn
+    {
+        line-height: 36px;
+
+        height: 56px;
+        padding: 10px 32px;
+    }
+
+
+    .services .service .icon
+    {
+        right: 32px;
+        bottom: 32px;
+
+        width: 72px;
+        height: 72px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        width: calc(100% - 872px);
+        min-height: 600px;
+    }
+
+
+    .about_info .image img
+    {
+        bottom: -20px;
+    }
+
+
+    .about_info .video
+    {
+        width: calc(100% - 620px);
+        min-height: 600px;
+    }
+
+
+    .about_info .data
+    {
+        width: 608px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .advantages .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*-------------
+        Actions
+    -------------*/
+    .actions .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .actions .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .actions .item
+    {
+        padding: 72px;
+    }
+
+
+    .actions .item .thumb
+    {
+        right: 12px;
+
+        width: 380px;
+        height: 380px;
+    }
+}

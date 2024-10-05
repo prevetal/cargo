@@ -1,0 +1,173 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        height: 40px;
+    }
+
+
+    header .menu
+    {
+        gap: 40px;
+    }
+
+
+    header .order_btn
+    {
+        height: 48px;
+        padding: 8px 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 1124px;
+        padding-top: 200px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 60px;
+    }
+
+
+
+    .first_section .services .row
+    {
+        flex-wrap: wrap;
+    }
+
+
+    .first_section .services .row > *
+    {
+        width: 25%;
+    }
+
+
+    .services .item:nth-child(6n)
+    {
+        border-right: 1px solid rgba(255, 255, 255, .40);
+    }
+
+    .services .item:nth-child(-n+4)
+    {
+        border-bottom: 1px solid rgba(255, 255, 255, .40);
+    }
+
+    .services .item:nth-child(4) ~ .item
+    {
+        border-top: none;
+    }
+
+    .services .item:nth-child(4n)
+    {
+        border-right: none;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .stats
+    {
+        width: 708px;
+    }
+
+
+    .about_info .stats .item + .item
+    {
+        margin-top: 80px;
+    }
+
+
+
+    .about_info .image
+    {
+        width: calc(100% - 828px);
+        min-height: 560px;
+        margin-right: -24px;
+    }
+
+
+    .about_info .image img
+    {
+        bottom: -40px;
+    }
+
+
+
+    .about_info .video
+    {
+        width: calc(100% - 552px);
+        min-height: 560px;
+        margin-left: -24px;
+    }
+
+
+
+    .about_info .data
+    {
+        width: 524px;
+    }
+
+
+
+    /*-------------
+        Actions
+    -------------*/
+    .actions .item
+    {
+        padding: 60px;
+    }
+
+
+    .actions .item .desc
+    {
+        min-height: 174px;
+    }
+
+
+    .actions .item .thumb
+    {
+        right: 0;
+
+        width: 360px;
+        height: 360px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding-top: 100px;
+    }
+}
