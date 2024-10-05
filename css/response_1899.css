@@ -85,13 +85,16 @@
 
     .about_info .image img
     {
+        right: auto;
         bottom: -20px;
+
+        left: -150px;
     }
 
 
     .about_info .video
     {
-        width: calc(100% - 620px);
+        max-width: calc(100% - 620px);
         min-height: 600px;
     }
 

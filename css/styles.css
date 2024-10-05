@@ -1417,8 +1417,8 @@ header .order_btn:active
 {
     position: absolute;
     z-index: 2;
+    right: 0;
     bottom: 0;
-    left: -150px;
 
     display: block;
 
@@ -1431,7 +1431,8 @@ header .order_btn:active
 {
     position: relative;
 
-    width: calc(100% - 805px);
+    width: 1025px;
+    max-width: calc(100% - 805px);
     min-height: 640px;
     margin-left: -40px;
 
@@ -2077,6 +2078,24 @@ header .order_btn:active
     font-size: var(--font_size_title);
     font-weight: 700;
     line-height: calc(100% + 10px);
+}
+
+
+.contacts_info .bg
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    object-fit: cover;
 }
 
 

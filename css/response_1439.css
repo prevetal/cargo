@@ -124,7 +124,7 @@
 
     .about_info .video
     {
-        width: calc(100% - 552px);
+        max-width: calc(100% - 552px);
         min-height: 560px;
         margin-left: -24px;
     }
